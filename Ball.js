@@ -17,7 +17,7 @@ class Ball {
         ellipseMode(CENTER);
         ellipse(0,0,this.width,this.height);
         if(keyCode===32){
-          this.body.position.y = mouseY;
+          
           this.body.position.x = mouseX;
           }
           
